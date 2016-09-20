@@ -96,16 +96,55 @@ namespace GladOS.Droid
 			public const int calendar = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int facebook_icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int meeting = 2130837508;
+			public const int github_icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int office = 2130837509;
+			public const int Icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int splash = 2130837510;
+			public const int linkedin_icon = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int meeting = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int office = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int sample_0 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int sample_1 = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int sample_2 = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int sample_3 = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int sample_4 = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int sample_5 = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int sample_6 = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int sample_7 = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int schedule = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int splash = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int steve = 2130837523;
 			
 			static Drawable()
 			{
@@ -126,6 +165,60 @@ namespace GladOS.Droid
 			// aapt resource value: 0x7f050001
 			public const int MvxBindingTagUnique = 2131034113;
 			
+			// aapt resource value: 0x7f050013
+			public const int buttonSave = 2131034131;
+			
+			// aapt resource value: 0x7f050012
+			public const int checkBoxBluetooth = 2131034130;
+			
+			// aapt resource value: 0x7f050011
+			public const int checkBoxGPS = 2131034129;
+			
+			// aapt resource value: 0x7f05000f
+			public const int checkBoxNFC = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int checkBoxWifi = 2131034128;
+			
+			// aapt resource value: 0x7f050007
+			public const int editTextEmail = 2131034119;
+			
+			// aapt resource value: 0x7f050005
+			public const int editTextEmployer = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int editTextName = 2131034116;
+			
+			// aapt resource value: 0x7f05000d
+			public const int editTextPhone = 2131034125;
+			
+			// aapt resource value: 0x7f050002
+			public const int gridLayout1 = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int imageViewDP = 2131034115;
+			
+			// aapt resource value: 0x7f050008
+			public const int imageViewFbIcon = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int imageViewGitIcon = 2131034122;
+			
+			// aapt resource value: 0x7f050009
+			public const int imageViewLinkedIcon = 2131034121;
+			
+			// aapt resource value: 0x7f05000b
+			public const int imageViewSchedule = 2131034123;
+			
+			// aapt resource value: 0x7f050006
+			public const int textViewEmail = 2131034118;
+			
+			// aapt resource value: 0x7f05000e
+			public const int textViewLocate = 2131034126;
+			
+			// aapt resource value: 0x7f05000c
+			public const int textViewPhone = 2131034124;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -143,7 +236,22 @@ namespace GladOS.Droid
 			public const int FirstView = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int SplashScreen = 2130968577;
+			public const int FourthView = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int item_person = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int MeetingView = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int SecondView = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int SplashScreen = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int ThirdView = 2130968582;
 			
 			static Layout()
 			{

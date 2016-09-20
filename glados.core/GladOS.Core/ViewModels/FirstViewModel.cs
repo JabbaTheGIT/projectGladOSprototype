@@ -16,7 +16,7 @@ using Android.OS;
 
 namespace GladOS.Core.ViewModels
 {
-    public class FirstViewModel 
+    public class FirstViewModel
         : MvxViewModel
     {
         private string update = "";
@@ -45,17 +45,17 @@ namespace GladOS.Core.ViewModels
         {
             HomePressed = new MvxCommand(() =>
             {
-                Update = "Home Pressed";
+                base.ShowViewModel<SecondViewModel>();
             });
 
             SchedulePressed = new MvxCommand(() =>
             {
-                Update = "Scedule Pressed";
+                base.ShowViewModel<FirstViewModel>();
             });
 
             SearchPressed = new MvxCommand(() =>
             {
-                Update = "Search Pressed";
+                base.ShowViewModel<ThirdViewModel>();
             });
 
             ProfilePressed = new MvxCommand(() =>
@@ -65,7 +65,7 @@ namespace GladOS.Core.ViewModels
 
             InAMeetingPressed = new MvxCommand(() =>
             {
-                Update = "Indicate you are in a meeting";
+                base.ShowViewModel<MeetingViewModel>();
             });
 
             OfficeHoursPressed = new MvxCommand(() =>
